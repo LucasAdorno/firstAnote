@@ -7,7 +7,7 @@ body{
 
 header{
     height: 90px;
-    background: #333;
+    background: #111;
     color: #fafafa;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ h1 span{
 
 #createBox{
     width: 500px;
-    min-height: 280px;
+    min-height: 240px;
     background: #aaaaaaaa;
     margin: 20px 0 0 20px;
     display: flex;
@@ -47,8 +47,25 @@ h1 span{
 }
 
 #insertText{
+    min-height: 240px;
+    margin: 16px 0 10px 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+input{
+    width: 250px;
+    height: 24px;
+    border: none;
+    border-radius: 4px;
+}
+
+textarea{
+    min-height: 200px;
+    width: calc(100% + 50px);
+    border: none;
+    border-radius: 6px;
+    resize: none;
 }
