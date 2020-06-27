@@ -37,17 +37,17 @@ h1 span{
 
 #createBox{
     width: 500px;
-    min-height: 240px;
-    background: #aaaaaaaa;
+    background: #ece7e7aa;
     margin: 20px 0 0 20px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     border-radius: 8px;
+    box-shadow: 1px 1px 10px #3a3a3a9d;
 }
 
 #insertText{
-    min-height: 240px;
+    min-height: 220px;
     margin: 16px 0 10px 16px;
     display: flex;
     flex-direction: column;
@@ -60,12 +60,45 @@ input{
     height: 24px;
     border: none;
     border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 textarea{
-    min-height: 200px;
+    min-height: 180px;
     width: calc(100% + 50px);
+    padding: 4px;
     border: none;
     border-radius: 6px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height:20px;
     resize: none;
+}
+
+button{
+    width: 36px;
+    height: 36px;
+    margin: 12px 16px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 28px;
+    color: #fafafa;
+    background: #22ddff;
+    cursor: pointer;
+    transition: background 300ms;
+}
+button:hover{
+    color: #22ddff;
+    background: #fafafa;
+}
+button:active{
+    border: 2px solid #f0f0f0;
 }
