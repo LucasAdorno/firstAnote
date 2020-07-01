@@ -73,7 +73,7 @@ textarea{
     width: calc(100% + 50px);
     padding: 4px;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     line-height:20px;
@@ -83,7 +83,6 @@ textarea{
 button{
     width: 36px;
     height: 36px;
-    margin: 12px 16px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +90,15 @@ button{
     border: none;
     border-radius: 6px;
     font-size: 28px;
-    color: #fafafa;
-    background: #22ddff;
     cursor: pointer;
     transition: background 300ms;
 }
-button:hover{
+#addButton{
+    color: #fafafa;
+    background: #22ddff;
+    margin: 12px 16px 0 0;
+}
+#addButton:hover{
     color: #22ddff;
     background: #fafafa;
 }
