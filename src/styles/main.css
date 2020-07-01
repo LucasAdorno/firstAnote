@@ -39,7 +39,7 @@ h1 span{
 #createBox{
     width: 500px;
     background: #ece7e7aa;
-    margin: 20px 0 0 60px;
+    margin: 20px 0 0 50px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
