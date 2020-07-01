@@ -1,0 +1,28 @@
+@media(max-width: 1200px){
+    #notesDiv{
+        grid-template-columns:  1fr 1fr;
+        grid-gap: 40px;
+    }
+    
+}
+@media(max-width: 980px){
+    header{
+        justify-content: center;
+    }
+    #createDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #createBox{
+        margin-left: 0;
+        width: 85vw;
+    }
+    #notesDiv{
+        grid-template-columns:  1fr;
+        grid-gap: 40px;
+    }
+    .noteBox{
+        width: 85vw;
+    }
+}

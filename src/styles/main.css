@@ -37,9 +37,9 @@ h1 span{
 }
 
 #createBox{
-    width: 440px;
+    width: 500px;
     background: #ece7e7aa;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 60px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -48,6 +48,7 @@ h1 span{
 }
 
 #insertText{
+    width: 70%;
     min-height: 220px;
     margin: 16px 0 10px 16px;
     display: flex;

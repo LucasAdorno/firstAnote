@@ -10,6 +10,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../src/styles/main.css">
     <link rel="stylesheet" href="../src/styles/notes.css">
+    <link rel="stylesheet" href="../src/styles/mediaqueries.css">
+
 </head>
 
 <body>
@@ -20,15 +22,15 @@
         <div id="createDiv">
             <div id="createBox">
                 <div id="insertText">
-                    <input type="text" name="title" placeholder="Title">
-                    <textarea name="content"></textarea>
+                    <input id="titleInput" type="text" name="title" placeholder="Title">
+                    <textarea id="contentInput" name="content"></textarea>
                 </div>
                 <button id="addButton">+</button>
             </div>
         </div>
         <div id="notesDiv">
             <div class="noteBox">
-                <div class="titleNote"><strong>Title here</strong></div>
+                <div class="titleNote">Title here</div>
                 <div class="contentNote">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
                     ipsum lorem ipsum
                     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
@@ -38,19 +40,41 @@
                     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                     lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
                 </div>
-                <button id="delButton">x</button>
+                <div class="footerNote">
+                    <div class="date">30/06/2020</div>
+                    <button class="delButton">x</button>
+                </div>
             </div>
             <div class="noteBox">
-                <div class="titleNote"></div>
-                <div class="contentNote"></div>
-                <button id="delButton">x</button>
+                <div class="titleNote">Title here</div>
+                <div class="contentNote">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                </div>
+                <div class="footerNote">
+                    <div class="date">30/06/2020</div>
+                    <button class="delButton">x</button>
+                </div>
             </div>
             <div class="noteBox">
                 <div class="titleNote"></div>
                 <div class="contentNote"></div>
                 <div class="footerNote">
                     <div class="date">30/06/2020</div>
-                    <button id="delButton">x</button>
+                    <button class="delButton">x</button>
+                </div>
+            </div>
+            <div class="noteBox">
+                <div class="titleNote"></div>
+                <div class="contentNote"></div>
+                <div class="footerNote">
+                    <div class="date">30/06/2020</div>
+                    <button class="delButton">x</button>
                 </div>
             </div>
         </div>
