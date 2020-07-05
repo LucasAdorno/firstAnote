@@ -10,7 +10,7 @@ document.querySelector('#addButton').onclick = () => {
    const date = `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
 
    if(content.value != ''){
-      notes.push({title: title.value, content: content.value, data: date})
+      notes.unshift({title: title.value, content: content.value, data: date})
       title.value = ''
       content.value = ''
       render() 
