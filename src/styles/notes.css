@@ -8,7 +8,7 @@
 .noteBox{
     width: 390px;
     height: 300px;
-    background: #e3eff1;
+    background: #c9cece;
     box-shadow: 1px 1px 8px #3a3a3a9d;
     border-radius: 6px 6px 0 0;
     display: flex;
@@ -29,7 +29,7 @@
     width: 94%;
     height: 200px;
     margin: 0;
-    color: #070707;
+    color: #020202;
     word-wrap: break-word;
     white-space: pre-wrap;
     overflow: auto;
@@ -43,17 +43,17 @@
 .delButton{
     margin: 0 8px 4px 0;
     color: #fafafa;
-    background: #ff6060;
+    background: #ec1818;
     font-size: 22px;
 }
 .delButton:hover{
-    color: #ff6060;
+    color: #ff0000;
     background: #fafafa;
 }
 .date{
     font-size: 15px;
     font-weight: 700;
-    color: #444;
+    color: #333;
     font-family: 'Ubuntu', sans-serif;
     margin: 0 0 4px 4px;
 }
