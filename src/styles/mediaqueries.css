@@ -24,6 +24,7 @@
     }
     .noteBox{
         width: 85vw;
+        box-shadow: none;
     }
     button{
         width: 28px;

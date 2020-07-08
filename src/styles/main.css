@@ -1,5 +1,5 @@
 body{
-    background: #ffffff;
+    background: #242424;
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -9,12 +9,15 @@ header{
     width: 100%;
     height: 90px;
     background: #111;
-    color: #fafafa;
+    border-bottom: 2px solid #ffffffd2;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-
+a{
+    color: #fafafa;
+    text-decoration: none;
+}
 h1{
     margin:0 0 0 18px;
     font-size: 46px;
@@ -38,13 +41,13 @@ h1 span{
 
 #createBox{
     width: 500px;
-    background: #b5e4e0;
+    background: #ffffffe5;
     margin: 20px 0 0 50px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     border-radius: 8px;
-    box-shadow: 1px 1px 10px #3a3a3a9d;
+    box-shadow: 1px 1px 2px #d8d8d89d;
 }
 
 #insertText{
@@ -62,7 +65,6 @@ input{
     height: 24px;
     border: none;
     border-radius: 4px;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     font-weight: 700;
     outline: none;
