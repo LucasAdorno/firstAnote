@@ -8,7 +8,7 @@ body{
 header{
     width: 100%;
     height: 90px;
-    background: #111;
+    background: #000;
     border-bottom: 2px solid #ffffffd2;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ h1 span{
 
 #createBox{
     width: 500px;
-    background: #fffffff3;
+    background: #fffffffa;
     margin: 20px 0 0 50px;
     display: flex;
     align-items: flex-start;
