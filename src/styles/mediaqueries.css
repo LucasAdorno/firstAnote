@@ -26,16 +26,14 @@
         width: 85vw;
     }
     button{
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
         display: flex;
         justify-content: center;
         align-items: center;
         outline: none;
         border: none;
         border-radius: 6px;
-        font-size: 28px;
-        cursor: pointer;
-        transition: background 300ms;
+        font-size: 24px;
     }
 }
