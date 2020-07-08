@@ -19,6 +19,7 @@ document.querySelector('#addButton').onclick = () => {
 }
 
 
+
 function render(){
 
    notesDiv.innerHTML = ''
