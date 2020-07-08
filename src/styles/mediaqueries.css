@@ -28,12 +28,11 @@
     button{
         width: 28px;
         height: 28px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        outline: none;
-        border: none;
-        border-radius: 6px;
         font-size: 24px;
+    }
+    #addButton{
+        color: #fafafa;
+        background: #22ddff;
+        margin: 6px 10px 0 4px;
     }
 }
