@@ -1,5 +1,5 @@
 body{
-    background: #f5f5f5;
+    background: #ffffff;
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -38,7 +38,7 @@ h1 span{
 
 #createBox{
     width: 500px;
-    background: #edfffdda;
+    background: #bdcac9da;
     margin: 20px 0 0 50px;
     display: flex;
     align-items: flex-start;
