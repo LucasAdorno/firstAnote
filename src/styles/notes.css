@@ -8,7 +8,7 @@
 .noteBox{
     width: 390px;
     height: 300px;
-    background: #d6dada83;
+    background: #eeeeee83;
     box-shadow: 1px 1px 8px #3a3a3a9d;
     border-radius: 6px 6px 0 0;
     display: flex;
@@ -19,7 +19,7 @@
 .titleNote{
     width: 100%;
     min-height: 24px;
-    background: #8d8c8c86;
+    background: #d3d3d386;
     font-weight: bold;
     font-size: 18px;
     text-align: center;
