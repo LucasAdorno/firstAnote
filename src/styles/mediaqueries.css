@@ -17,6 +17,7 @@
     #createBox{
         margin-left: 0;
         width: 85vw;
+        box-shadow: none;
     }
     #notesDiv{
         grid-template-columns:  1fr;
